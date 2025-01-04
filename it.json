@@ -1,0 +1,100 @@
+{
+  "statementModel": {
+    "title": "Isonomy Statement",
+    "complianceStatus": "Stato di conformità",
+    "complianceText1": "Crediamo fermamente che Internet debba essere disponibile e accessibile a chiunque e siamo impegnati a fornire un sito web accessibile al pubblico più ampio possibile, indipendentemente dalle capacità.",
+    "complianceText2": "Per raggiungere questo obiettivo, ci impegniamo a rispettare il più rigorosamente possibile le Linee Guida per l'Accessibilità dei Contenuti Web 2.1 (WCAG 2.1) del World Wide Web Consortium (W3C) a livello AA. Queste linee guida spiegano come rendere i contenuti web accessibili alle persone con una vasta gamma di disabilità. Il rispetto di queste linee guida ci aiuta a garantire che il sito web sia accessibile a persone non vedenti, con disabilità motorie, visive, cognitive e altro.",
+    "complianceText3": "Questo sito web utilizza varie tecnologie per renderlo accessibile il più possibile in ogni momento. Utilizziamo un'interfaccia di accessibilità che consente alle persone con disabilità specifiche di regolare l'interfaccia utente (UI) e il design del sito web in base alle proprie esigenze personali.",
+    "complianceText4": "Inoltre, il sito web utilizza un'applicazione basata su AI che funziona in background e ottimizza costantemente il livello di accessibilità. Questa applicazione rimedia all'HTML del sito web, adatta la sua funzionalità e il comportamento per gli screen reader utilizzati dagli utenti non vedenti e per le funzioni della tastiera utilizzate dagli individui con disabilità motorie.",
+    "complianceText5": "Se desideri contattare il proprietario del sito web, utilizza il modulo del sito web",
+    "ariaAttributes": "Il nostro sito web implementa la tecnica degli attributi ARIA (Accessible Rich Internet Applications), insieme a vari cambiamenti comportamentali, per garantire che gli utenti non vedenti che visitano con screen reader possano leggere, comprendere e godere delle funzioni del sito web. Non appena un utente con uno screen reader entra nel tuo sito, riceve immediatamente un prompt per entrare nel Profilo Screen Reader in modo da poter navigare ed operare sul tuo sito in modo efficace. Ecco come il nostro sito web copre alcuni dei requisiti più importanti per gli screen reader:",
+    "screenReaderOptimization": "Ottimizzazione screen reader:",
+    "screenReaderText": "Eseguiamo un processo che impara i componenti del sito web dall'alto verso il basso, per garantire la conformità continua anche quando si aggiorna il sito web. In questo processo, forniamo agli screen reader dati significativi utilizzando il set di attributi ARIA. Ad esempio, forniamo etichette accurate per i moduli; descrizioni per icone azionabili (icone dei social media, icone di ricerca, icone del carrello, ecc.); guida alla convalida per gli input del modulo; ruoli degli elementi come pulsanti, menu, finestre di dialogo modali (popup) e altri. Inoltre, il processo in background esegue la scansione di tutte le immagini del sito web. Fornisce una descrizione accurata e significativa basata sul riconoscimento degli oggetti nelle immagini come tag ALT (testo alternativo) per le immagini non descritte. Estrae anche i testi incorporati nell'immagine utilizzando una tecnologia OCR (Optical Character Recognition). Per attivare le regolazioni dello screen reader in qualsiasi momento, agli utenti basta premere la combinazione di tasti Alt+1. Gli utenti di screen reader ricevono anche annunci automatici per attivare la modalità screen reader non appena entrano nel sito web. Queste regolazioni sono compatibili con screen reader popolari come JAWS, NVDA, VoiceOver e TalkBack.",
+    "keyboardNavigationOptimization": "Ottimizzazione della navigazione da tastiera:",
+    "keyboardNavigationText": "Il processo in background regola anche l'HTML del sito web e aggiunge vari comportamenti utilizzando il codice JavaScript per rendere il sito web operabile tramite tastiera. Questo include la possibilità di navigare nel sito web utilizzando i tasti Tab e Shift+Tab, operare i menu a discesa con i tasti freccia, chiuderli con Esc, attivare pulsanti e link utilizzando il tasto Invio, navigare tra gli elementi radio e casella di controllo utilizzando i tasti freccia e compilarli con la barra spaziatrice o il tasto Invio. Inoltre, gli utenti della tastiera troveranno menu di salto dei contenuti disponibili in qualsiasi momento facendo clic su Alt+2, o come primo elemento del sito durante la navigazione con la tastiera. Il processo in background gestisce anche i popup attivati spostando il fuoco della tastiera verso di essi non appena appaiono, senza permettere al fuoco di allontanarsi. Gli utenti possono anche utilizzare scorciatoie come “M” (menu), “H” (intestazioni), “F” (moduli), “B” (pulsanti) e “G” (grafica) per saltare a elementi specifici."
+  },
+  "mainHeading": {
+    "heading": ["Profili", "Contenuto", "Colore", "Orientamento", "Navigatore link"]
+  },
+  "interfaceModel": {
+    "title": "Hide Accessibility Interface?",
+    "description": "Nota: Se scegli di nascondere l'interfaccia di accessibilità, non sarà più visibile a meno che non cancelli la cronologia e i dati di navigazione. Sei sicuro di voler nascondere l'interfaccia?",
+    "accept": "Accetta",
+    "cancel": "Annulla"
+  },
+  "toasterMessage": "Le impostazioni di Isonomy sono state ripristinate.",
+  "lanTitleHeading": "Scegli una lingua",
+  "profile": {
+    "proTitles": [
+      "Motorio compromesso",
+      "Cieco",
+      "Daltonico",
+      "Dislessia",
+      "Ipovedente",
+      "Cognitivo e apprendimento",
+      "Epilessia",
+      "ADHD"
+    ]
+  },
+  "content": {
+   "contentTitles":{
+     "1": "Mostra suggerimenti",
+     "2": ["Dimensione del font", "Dimensione del font (14px)","Dimensione del font (16px)", "Dimensione del font (18px)", "Dimensione del font (24px)"],
+     "3": ["Spaziatura delle lettere", "Spaziatura delle lettere (14px)", "Spaziatura delle lettere (16px)", "Spaziatura delle lettere (18px)"],
+     "4": ["Allineamento del testo", "Allineamento a sinistra", "Allineamento centrale", "Allineamento a destra", "Giustificato"],
+    "5": "Altezza della linea",
+    "6": "Sottolinea i titoli",
+    "7": "Sottolinea i link",
+    "8": "Zoom schermo",
+    "9": ["Linea di lettura", "Maschera di lettura"],
+    "10": "Font dislessia",
+    "11": "Font leggibile",
+    "12": "Navigazione da tastiera"
+   }
+  },
+  "Color": {
+    "colorTitles": {
+      "1": ["Inverti colori", "Contrasto chiaro", "Contrasto scuro"],
+      "2": ["Saturazione", "Bassa saturazione", "Alta saturazione", "Desaturare"],
+      "3": [
+        "Luminosità",
+        "Bassa luminosità",
+        "Luminosità media",
+        "Alta luminosità"
+      ]
+    }
+  },
+  "colorsSettings": {
+    "Titles": ["Colore del testo", "Colore del titolo", "Colore di sfondo"]
+  },
+  "orientation": {
+    "orientTitles":{
+      "1": ["Cursore grande","Cursore bianco grande", "Cursore nero grande"],
+      "2": ["Testo in voce", "Normale", "Lento", "Veloce"],
+      "3": "Nascondi immagine",
+      "4": "Disattiva suoni",
+      "5": "Pausa animazione",
+      "6": "Evidenzia passaggio del mouse",
+      "7": "Modalità di lettura",
+      "8": "Evidenzia fuoco",
+      "9": "Navigazione vocale"
+    }
+  },
+  "linkNavigator": {
+    "links": [
+      "Seleziona un link per navigare",
+      "Vai al contenuto",
+      "Home",
+      "Catalogo",
+      "Contatti",
+      "Accedi",
+      "Carrello",
+      "Tutti i generi UNEEK II Convertibile | Nero/Verde allegro"
+    ]
+  },
+  "footer": {
+    "statement": "Dichiarazione",
+    "resetSettings": "Reimposta impostazioni",
+    "poweredBy": "Offerto da Isonomy"
+  }
+}

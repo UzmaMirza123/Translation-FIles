@@ -1,0 +1,101 @@
+{
+    "statementModel": {
+      "title": "Isonomy Statement",
+      "complianceStatus": "Statut de conformité",
+      "complianceText1": "Nous croyons fermement que l'internet doit être disponible et accessible à tous et nous nous engageons à fournir un site web accessible au plus grand nombre, indépendamment de leurs capacités.",
+      "complianceText2": "Pour ce faire, nous nous efforçons de respecter le plus strictement possible les Directives pour l'accessibilité des contenus Web 2.1 (WCAG 2.1) du World Wide Web Consortium (W3C) au niveau AA. Ces directives expliquent comment rendre le contenu web accessible aux personnes présentant divers types de handicaps. Le respect de ces directives nous aide à garantir que le site web est accessible aux personnes aveugles, aux personnes présentant des troubles moteurs, une déficience visuelle, des troubles cognitifs, et plus encore.",
+      "complianceText3": "Ce site web utilise diverses technologies destinées à le rendre aussi accessible que possible en permanence. Nous utilisons une interface d'accessibilité qui permet aux personnes présentant des handicaps spécifiques d'ajuster l'interface utilisateur (UI) et la conception du site web en fonction de leurs besoins personnels.",
+      "complianceText4": "De plus, le site web utilise une application basée sur l'IA qui fonctionne en arrière-plan et optimise constamment son niveau d'accessibilité. Cette application remédie au code HTML du site web, adapte sa fonctionnalité et son comportement pour les lecteurs d'écran utilisés par les utilisateurs aveugles, et pour les fonctions de clavier utilisées par les personnes présentant des troubles moteurs.",
+      "complianceText5": "Si vous souhaitez contacter le propriétaire du site web, veuillez utiliser le formulaire du site web",
+      "ariaAttributes": "Notre site web met en œuvre la technique des attributs ARIA (Accessible Rich Internet Applications), ainsi que divers changements de comportement, pour garantir que les utilisateurs aveugles utilisant des lecteurs d'écran puissent lire, comprendre et profiter des fonctions du site web. Dès qu'un utilisateur avec un lecteur d'écran entre sur votre site, il reçoit immédiatement une invitation à entrer dans le Profil Lecteur d'Écran afin de pouvoir naviguer et utiliser votre site efficacement. Voici comment notre site web répond à certaines des exigences les plus importantes des lecteurs d'écran:",
+      "screenReaderOptimization": "Optimisation pour les lecteurs d'écran:",
+      "screenReaderText": "Nous exécutons un processus qui apprend les composants du site web de haut en bas, pour garantir une conformité continue même lors de la mise à jour du site web. Dans ce processus, nous fournissons aux lecteurs d'écran des données significatives à l'aide de l'ensemble d'attributs ARIA. Par exemple, nous fournissons des étiquettes de formulaire précises ; des descriptions pour les icônes actionnables (icônes de réseaux sociaux, icônes de recherche, icônes de panier, etc.) ; des conseils de validation pour les entrées de formulaire ; des rôles d'éléments tels que des boutons, des menus, des dialogues modaux (popups), et autres. De plus, le processus en arrière-plan analyse toutes les images du site web. Il fournit une description significative et précise basée sur la reconnaissance d'objets dans les images en tant que balise ALT (texte alternatif) pour les images qui ne sont pas décrites. Il extrait également les textes intégrés dans l'image à l'aide d'une technologie de reconnaissance optique de caractères (OCR). Pour activer les ajustements pour lecteur d'écran à tout moment, les utilisateurs doivent simplement appuyer sur la combinaison de touches Alt+1. Les utilisateurs de lecteurs d'écran reçoivent également des annonces automatiques pour activer le mode Lecteur d'Écran dès qu'ils entrent sur le site web. Ces ajustements sont compatibles avec les lecteurs d'écran populaires tels que JAWS, NVDA, VoiceOver et TalkBack.",
+      "keyboardNavigationOptimization": "Optimisation de la navigation au clavier:",
+      "keyboardNavigationText": "Le processus en arrière-plan ajuste également le code HTML du site web et ajoute divers comportements à l'aide de code JavaScript pour rendre le site web utilisable au clavier. Cela inclut la possibilité de naviguer sur le site web à l'aide des touches Tab et Shift+Tab, d'utiliser les menus déroulants avec les touches fléchées, de les fermer avec Échap, de déclencher des boutons et des liens à l'aide de la touche Entrée, de naviguer entre les éléments radio et les cases à cocher à l'aide des touches fléchées, et de les remplir avec la barre d'espace ou la touche Entrée. De plus, les utilisateurs de clavier trouveront des menus de saut de contenu disponibles à tout moment en cliquant sur Alt+2, ou en tant que premier élément du site lors de la navigation avec le clavier. Le processus en arrière-plan gère également les popups déclenchés en déplaçant le focus du clavier vers eux dès qu'ils apparaissent, sans permettre au focus de dériver à l'extérieur. Les utilisateurs peuvent également utiliser des raccourcis tels que « M » (menus), « H » (titres), « F » (formulaires), « B » (boutons) et « G » (graphiques) pour sauter vers des éléments spécifiques."
+    },
+    "mainHeading": {
+      "heading": ["Profils", "Contenu", "Couleur", "Orientation", "Navigateur de liens"]
+    },
+    "interfaceModel": {
+      "title": "Masquer l'interface d'accessibilité ?",
+      "description": "Veuillez noter : Si vous choisissez de masquer l'interface d'accessibilité, vous ne pourrez plus la voir, sauf si vous effacez votre historique et vos données de navigation. Êtes-vous sûr de vouloir masquer l'interface ?",
+      "accept": "Accepter",
+      "cancel": "Annuler"
+    },
+    "toasterMessage": "Les paramètres Isonomy ont été réinitialisés.",
+    "lanTitleHeading": "Choisir une langue",
+    "profile": {
+      "proTitles": [
+        "Moteur altéré",
+        "Aveugle",
+        "Daltonien",
+        "Dyslexie",
+        "Malvoyant",
+        "Cognitif et apprentissage",
+        "Épilepsie et crises",
+        "TDAH"
+      ]
+    },
+    "content": {
+      "contentTitles": {
+        "1": "Afficher les infobulles",
+        "2": ["Taille de la police", "Taille de la police (14px)", "Taille de la police (16px)", "Taille de la police (18px)", "Taille de la police (24px)"],
+        "3": ["Espacement des lettres", "Espacement des lettres (14px)", "Espacement des lettres (16px)", "Espacement des lettres (18px)"],
+        "4": ["Alignement du texte", "Alignement à gauche", "Alignement au centre", "Alignement à droite", "Justifié"],
+        "5": "Hauteur de ligne",
+        "6": "Souligner les titres",
+        "7": "Souligner les liens",
+        "8": "Zoomer l'écran",
+        "9": ["Ligne de lecture", "Masque de lecture"],
+        "10": "Polices pour dyslexie",
+        "11": "Police lisible",
+        "12": "Navigation au clavier"
+      }
+    },
+    "Color": {
+      "colorTitles": {
+        "1": ["Inverser les couleurs", "Faible contraste", "Fort contraste"],
+        "2": ["Saturation", "Faible saturation", "Forte saturation", "Désaturer"],
+        "3": [
+          "Luminosité",
+          "Faible luminosité",
+          "Luminosité moyenne",
+          "Forte luminosité"
+        ]
+      }
+    },
+    "colorsSettings": {
+      "Titles": ["Couleur du texte", "Couleur du titre", "Couleur de fond"]
+    },
+    "orientation": {
+      "orientTitles": {
+        "1": ["Grand curseur", "Grand curseur blanc", "Grand curseur noir"],
+        "2": ["Synthèse vocale", "Normal", "Lent", "Rapide"],
+        "3": "Masquer l'image",
+        "4": "Couper le son",
+        "5": "Mettre l'animation en pause",
+        "6": "Surligner au survol",
+        "7": "Mode lecture",
+        "8": "Surligner au focus",
+        "9": "Navigation vocale"
+      }
+    },
+    "linkNavigator": {
+      "links": [
+        "Sélectionnez un lien pour naviguer",
+        "Passer au contenu",
+        "Accueil",
+        "Catalogue",
+        "Contact",
+        "Connexion",
+        "Panier",
+        "UNEEK II Convertible Tous Genres | Noir/Vert Jolly"
+      ]
+    },
+    "footer": {
+      "statement": "Déclaration",
+      "resetSettings": "Réinitialiser les paramètres",
+      "poweredBy": "Propulsé par Isonomy"
+    }
+  }
+  

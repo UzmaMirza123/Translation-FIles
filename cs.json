@@ -1,0 +1,101 @@
+{
+  "statementModel": {
+    "title": "Prohlášení Isonomie",
+    "complianceStatus": "Stav dodržování",
+    "complianceText1": "Pečlivě věříme, že internet by měl být dostupný a přístupný pro každého a zavazujeme se poskytnout webové stránky, které jsou přístupné pro co nejširší možné publikum bez ohledu na schopnosti.",
+    "complianceText2": "K dosažení tohoto cíle se snažíme dodržovat pokyny pro přístupnost webového obsahu (WCAG) 2.1 na úrovni AA od World Wide Web Consortium (W3C) co nejpřísněji. Tyto pokyny vysvětlují, jak učinit webový obsah přístupným pro lidi s širokou škálou postižení. Dodržování těchto pokynů nám pomáhá zajistit, aby byly webové stránky přístupné pro nevidomé lidi, lidi s motorickým postižením, vizuálním postižením, kognitivním postižením a dalšími.",
+    "complianceText3": "Tento web používá různé technologie, které mají za cíl učinit jej co nejvíce přístupným v každou době. Používáme rozhraní pro přístupnost, které umožňuje lidem se specifickými postiženími upravit uživatelské rozhraní (UI) webu a navrhnout jej podle jejich osobních potřeb.",
+    "complianceText4": "Navíc web používá aplikaci založenou na umělé inteligenci, která běží na pozadí a neustále optimalizuje její úroveň přístupnosti. Tato aplikace opravuje HTML webu, přizpůsobuje jeho funkčnost a chování pro čtečky obrazovky používané nevidomými uživateli a pro klávesové funkce používané jednotlivci s motorickým postižením.",
+    "complianceText5": "Pokud si přejete navázat majitele webu, použijte formulář webu",
+    "ariaAttributes": "Naše webové stránky implementují techniku atributů ARIA (Accessible Rich Internet Applications) společně s různými změnami chování, aby zajistily, že nevidomí uživatelé, kteří navštěvují webové stránky pomocí čteček obrazovky, dokážou číst, pochopit a užívat funkce webu. Jakmile uživatel s čtečkou obrazovky vstoupí na vaše stránky, okamžitě obdrží výzvu k vstupu do profilu čtečky obrazovky, aby mohl efektivně procházet a ovládat vaše stránky. Zde je vysvětleno, jak naše webové stránky splňují některé z nejdůležitějších požadavků čteček obrazovky:",
+    "screenReaderOptimization": "Optimalizace čtečky obrazovky:",
+    "screenReaderText": "Provádíme proces, který se učí komponenty webu shora dolů, abychom zajistili nepřetržité dodržování i při aktualizaci webu. V tomto procesu poskytujeme čtečkám obrazovky významná data pomocí sady atributů ARIA. Například poskytujeme přesné popisky formulářů; popisy pro vykonatelné ikony (ikony sociálních sítí, vyhledávací ikony, ikony nákupního košíku atd.); návody pro ověřování vstupů do formulářů; role prvků, jako jsou tlačítka, nabídky, modální dialogy (vyskakovací okna) a další. Navíc běží pozadí proces, který prochází všechny obrázky webu. Poskytuje přesný a významný popis založený na rozpoznávání objektů v obrazech jako tag ALT (alternativní text) pro obrázky, které nejsou popsány. Také vyjme texty vložené do obrázku pomocí technologie optického rozpoznávání znaků (OCR). K zapnutí nastavení čtečky obrazovky v kterékoli době stačí uživatelé stisknout kombinaci kláves Alt+1. Uživatelé čteček obrazovky také dostávají automatická oznámení k zapnutí režimu čtečky obrazovky, jakmile vstoupí na webové stránky. Tyto nastavení jsou kompatibilní s oblíbenými čtečkami obrazovky, jako jsou JAWS, NVDA, VoiceOver a TalkBack.",
+    "keyboardNavigationOptimization": "Optimalizace klávesové navigace:",
+    "keyboardNavigationText": "Proces na pozadí také upravuje HTML webu a přidává různá chování pomocí kódu JavaScript, aby bylo možné web ovládat klávesnicí. To zahrnuje možnost navigovat na webu pomocí kláves Tab a Shift+Tab, ovládat rozbalovací nabídky pomocí šipkových kláves, uzavřít je klávesou Esc, aktivovat tlačítka a odkazy pomocí klávesy Enter, navigovat mezi prvky rozhlasovacích tlačítek a zaškrtávacích políček pomocí šipkových kláves a vyplňovat je mezerou nebo klávesou Enter. Navíc uživatelé klávesnice naleznou nabídky pro přeskočení obsahu k dispozici v kterékoli chvíli kliknutím na Alt+2 nebo jako první prvek stránky při navigaci klávesnicí. Proces na pozadí také zpracovává spuštěné vyskakovací okno přesouváním klávesního zájmu k nim, jakmile se zobrazí, a nedovolí zájmu, aby se rozptýlil. Uživatelé mohou také používat zkratky, jako jsou „M“ (nabídky), „H“ (nadpisy), „F“ (formuláře), „B“ (tlačítka) a „G“ (grafika), aby přeskočili na specifické prvky."
+  },
+  "interfaceModel": {
+    "title": "Skrýt rozhraní pro přístupnost?",
+    "description": "Pozor: Pokud se rozhodnete skrýt rozhraní pro přístupnost, neuvidíte jej znovu, dokud si nevymažete historii a dat prohlížení. Jste si jistí, že chcete rozhraní skrýt?",
+    "accept": "Přijmout",
+    "cancel": "Zrušit"
+  },
+  "toasterMessage": "Nastavení Isonomy byla resetována.",
+  "lanTitleHeading": "Vyberte jazyk",
+  "mainHeading": {
+    "heading": ["Profily", "Obsah", "Barva", "Orientace", "Odkazy"]
+  },
+  "profile": {
+    "proTitles": [
+      "Motorické postižení",
+      "Nevidomí",
+      "Barvoslepí",
+      "Dyslexie",
+      "Zrakově postižení",
+      "Kognitivní a učební",
+      "Záchvaty a epilepsie",
+      "ADHD"
+    ]
+  },
+  "content": {
+    "contentTitles":{
+      "1": "Zobrazit nápovědy",
+      "2": ["Velikost písma", "Velikost písma (14px)","Velikost písma (16px)", "Velikost písma (18px)", "Velikost písma (24px)"],
+      "3": ["Mezera mezi písmeny", "Mezera mezi písmeny (14px)", "Mezera mezi písmeny (16px)", "Mezera mezi písmeny (18px)"],
+      "4": ["Zarovnání textu", "Zarovnání vlevo", "Zarovnání na střed", "Zarovnání vpravo", "Zarovnání do bloku"],
+     "5": "Výška řádku",
+     "6": "Podtrhnout nadpisy",
+     "7": "Podtrhnout odkazy",
+     "8": "Přiblížení obrazovky",
+     "9": ["Čtecí linka", "Maska pro čtení"],
+     "10": "Písma pro dyslexii",
+     "11": "Čitelné písmo",
+     "12": "Klávesová navigace"
+    }
+   },
+   "Color": {
+    "colorTitles": {
+      "1": ["Inverze barev", "Světelný kontrast", "Tmavý kontrast"],
+      "2": ["Sytost", "Nízká sytost", "Vysoká sytost", "Desaturovat"],
+      "3": [
+        "Jas",
+        "Nízký jas",
+        "Střední jas",
+        "Vysoký jas"
+      ]
+    }
+  },
+  "colorsSettings": {
+    "Titles": ["Barva textu", "Barva nadpisu", "Barva pozadí"]
+  },
+  "orientation": {
+    "orientTitles":{
+      "1": ["Velká kurzor","Velký bílý kurzor", "Velký černý kurzor"],
+      "2": ["Text na řeč", "Normální", "Pomalý", "Rychlý"],
+      "3": "Skrýt obrázek",
+      "4": "Ztlumit zvuky",
+      "5": "Pozastavit animace",
+      "6": "Zvýraznění při najetí",
+      "7": "Režim čtení",
+      "8": "Zvýraznění při zaměření",
+      "9": "Hlasová navigace"
+    }
+  },
+
+  "linkNavigator": {  
+    "links": [
+      "Vyberte odkaz pro navigaci",
+      "Přeskočit na obsah",
+      "Domů",
+      "Katalog",
+      "Kontakt",
+      "Přihlásit se",
+      "Košík",
+      "Všechny pohlaví UNEEK II Convertible | Černá/Jolly Green"
+    ]
+  },
+  "footer": {
+    "statement": "Prohlášení",
+    "resetSettings": "Resetovat nastavení",
+    "poweredBy": "Poháněno Isonomy"
+  }
+}
